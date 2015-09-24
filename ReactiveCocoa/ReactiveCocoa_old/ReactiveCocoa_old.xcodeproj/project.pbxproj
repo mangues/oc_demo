@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3967CC4E1BB3FADF005230E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3967CC4D1BB3FADF005230E4 /* main.m */; };
+		3967CC511BB3FADF005230E4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3967CC501BB3FADF005230E4 /* AppDelegate.m */; };
+		3967CC541BB3FADF005230E4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3967CC531BB3FADF005230E4 /* ViewController.m */; };
+		3967CC591BB3FADF005230E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3967CC581BB3FADF005230E4 /* Images.xcassets */; };
+		3967CC5C1BB3FADF005230E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3967CC5A1BB3FADF005230E4 /* LaunchScreen.xib */; };
+		3967CC681BB3FADF005230E4 /* ReactiveCocoa_oldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3967CC671BB3FADF005230E4 /* ReactiveCocoa_oldTests.m */; };
+		3967CC721BB3FAF1005230E4 /* kitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3967CC711BB3FAF1005230E4 /* kitten.jpg */; };
+		3967CC741BB3FB58005230E4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3967CC731BB3FB58005230E4 /* Main.storyboard */; };
+		3967CC771BB3FB65005230E4 /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3967CC761BB3FB65005230E4 /* RWViewController.m */; };
+		3967CC7B1BB3FC9F005230E4 /* RWDummySignInService.m in Sources */ = {isa = PBXBuildFile; fileRef = 3967CC7A1BB3FC9F005230E4 /* RWDummySignInService.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3967CC621BB3FADF005230E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3967CC401BB3FADF005230E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3967CC471BB3FADF005230E4;
+			remoteInfo = ReactiveCocoa_old;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3967CC481BB3FADF005230E4 /* ReactiveCocoa_old.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactiveCocoa_old.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3967CC4C1BB3FADF005230E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3967CC4D1BB3FADF005230E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3967CC4F1BB3FADF005230E4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3967CC501BB3FADF005230E4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3967CC521BB3FADF005230E4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3967CC531BB3FADF005230E4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3967CC581BB3FADF005230E4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3967CC5B1BB3FADF005230E4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3967CC611BB3FADF005230E4 /* ReactiveCocoa_oldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactiveCocoa_oldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3967CC661BB3FADF005230E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3967CC671BB3FADF005230E4 /* ReactiveCocoa_oldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactiveCocoa_oldTests.m; sourceTree = "<group>"; };
+		3967CC711BB3FAF1005230E4 /* kitten.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitten.jpg; sourceTree = "<group>"; };
+		3967CC731BB3FB58005230E4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3967CC751BB3FB65005230E4 /* RWViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWViewController.h; sourceTree = "<group>"; };
+		3967CC761BB3FB65005230E4 /* RWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWViewController.m; sourceTree = "<group>"; };
+		3967CC781BB3FB79005230E4 /* RWReactivePlayground-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RWReactivePlayground-Prefix.pch"; sourceTree = "<group>"; };
+		3967CC791BB3FC9F005230E4 /* RWDummySignInService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWDummySignInService.h; sourceTree = "<group>"; };
+		3967CC7A1BB3FC9F005230E4 /* RWDummySignInService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWDummySignInService.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3967CC451BB3FADF005230E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3967CC5E1BB3FADF005230E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3967CC3F1BB3FADF005230E4 = {
+			isa = PBXGroup;
+			children = (
+				3967CC4A1BB3FADF005230E4 /* ReactiveCocoa_old */,
+				3967CC641BB3FADF005230E4 /* ReactiveCocoa_oldTests */,
+				3967CC491BB3FADF005230E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3967CC491BB3FADF005230E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3967CC481BB3FADF005230E4 /* ReactiveCocoa_old.app */,
+				3967CC611BB3FADF005230E4 /* ReactiveCocoa_oldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3967CC4A1BB3FADF005230E4 /* ReactiveCocoa_old */ = {
+			isa = PBXGroup;
+			children = (
+				3967CC711BB3FAF1005230E4 /* kitten.jpg */,
+				3967CC4F1BB3FADF005230E4 /* AppDelegate.h */,
+				3967CC501BB3FADF005230E4 /* AppDelegate.m */,
+				3967CC521BB3FADF005230E4 /* ViewController.h */,
+				3967CC531BB3FADF005230E4 /* ViewController.m */,
+				3967CC731BB3FB58005230E4 /* Main.storyboard */,
+				3967CC751BB3FB65005230E4 /* RWViewController.h */,
+				3967CC761BB3FB65005230E4 /* RWViewController.m */,
+				3967CC581BB3FADF005230E4 /* Images.xcassets */,
+				3967CC5A1BB3FADF005230E4 /* LaunchScreen.xib */,
+				3967CC791BB3FC9F005230E4 /* RWDummySignInService.h */,
+				3967CC7A1BB3FC9F005230E4 /* RWDummySignInService.m */,
+				3967CC4B1BB3FADF005230E4 /* Supporting Files */,
+			);
+			path = ReactiveCocoa_old;
+			sourceTree = "<group>";
+		};
+		3967CC4B1BB3FADF005230E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3967CC781BB3FB79005230E4 /* RWReactivePlayground-Prefix.pch */,
+				3967CC4C1BB3FADF005230E4 /* Info.plist */,
+				3967CC4D1BB3FADF005230E4 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3967CC641BB3FADF005230E4 /* ReactiveCocoa_oldTests */ = {
+			isa = PBXGroup;
+			children = (
+				3967CC671BB3FADF005230E4 /* ReactiveCocoa_oldTests.m */,
+				3967CC651BB3FADF005230E4 /* Supporting Files */,
+			);
+			path = ReactiveCocoa_oldTests;
+			sourceTree = "<group>";
+		};
+		3967CC651BB3FADF005230E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3967CC661BB3FADF005230E4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3967CC471BB3FADF005230E4 /* ReactiveCocoa_old */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3967CC6B1BB3FADF005230E4 /* Build configuration list for PBXNativeTarget "ReactiveCocoa_old" */;
+			buildPhases = (
+				3967CC441BB3FADF005230E4 /* Sources */,
+				3967CC451BB3FADF005230E4 /* Frameworks */,
+				3967CC461BB3FADF005230E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReactiveCocoa_old;
+			productName = ReactiveCocoa_old;
+			productReference = 3967CC481BB3FADF005230E4 /* ReactiveCocoa_old.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3967CC601BB3FADF005230E4 /* ReactiveCocoa_oldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3967CC6E1BB3FADF005230E4 /* Build configuration list for PBXNativeTarget "ReactiveCocoa_oldTests" */;
+			buildPhases = (
+				3967CC5D1BB3FADF005230E4 /* Sources */,
+				3967CC5E1BB3FADF005230E4 /* Frameworks */,
+				3967CC5F1BB3FADF005230E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3967CC631BB3FADF005230E4 /* PBXTargetDependency */,
+			);
+			name = ReactiveCocoa_oldTests;
+			productName = ReactiveCocoa_oldTests;
+			productReference = 3967CC611BB3FADF005230E4 /* ReactiveCocoa_oldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3967CC401BB3FADF005230E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = mangues;
+				TargetAttributes = {
+					3967CC471BB3FADF005230E4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					3967CC601BB3FADF005230E4 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 3967CC471BB3FADF005230E4;
+					};
+				};
+			};
+			buildConfigurationList = 3967CC431BB3FADF005230E4 /* Build configuration list for PBXProject "ReactiveCocoa_old" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3967CC3F1BB3FADF005230E4;
+			productRefGroup = 3967CC491BB3FADF005230E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3967CC471BB3FADF005230E4 /* ReactiveCocoa_old */,
+				3967CC601BB3FADF005230E4 /* ReactiveCocoa_oldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3967CC461BB3FADF005230E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3967CC721BB3FAF1005230E4 /* kitten.jpg in Resources */,
+				3967CC5C1BB3FADF005230E4 /* LaunchScreen.xib in Resources */,
+				3967CC591BB3FADF005230E4 /* Images.xcassets in Resources */,
+				3967CC741BB3FB58005230E4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3967CC5F1BB3FADF005230E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3967CC441BB3FADF005230E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3967CC541BB3FADF005230E4 /* ViewController.m in Sources */,
+				3967CC771BB3FB65005230E4 /* RWViewController.m in Sources */,
+				3967CC511BB3FADF005230E4 /* AppDelegate.m in Sources */,
+				3967CC4E1BB3FADF005230E4 /* main.m in Sources */,
+				3967CC7B1BB3FC9F005230E4 /* RWDummySignInService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3967CC5D1BB3FADF005230E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3967CC681BB3FADF005230E4 /* ReactiveCocoa_oldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3967CC631BB3FADF005230E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3967CC471BB3FADF005230E4 /* ReactiveCocoa_old */;
+			targetProxy = 3967CC621BB3FADF005230E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3967CC5A1BB3FADF005230E4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3967CC5B1BB3FADF005230E4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3967CC691BB3FADF005230E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3967CC6A1BB3FADF005230E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3967CC6C1BB3FADF005230E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/ReactiveCocoa_old/RWReactivePlayground-Prefix.pch";
+				INFOPLIST_FILE = ReactiveCocoa_old/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3967CC6D1BB3FADF005230E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "${SRCROOT}/ReactiveCocoa_old/RWReactivePlayground-Prefix.pch";
+				INFOPLIST_FILE = ReactiveCocoa_old/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3967CC6F1BB3FADF005230E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactiveCocoa_oldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveCocoa_old.app/ReactiveCocoa_old";
+			};
+			name = Debug;
+		};
+		3967CC701BB3FADF005230E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ReactiveCocoa_oldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactiveCocoa_old.app/ReactiveCocoa_old";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3967CC431BB3FADF005230E4 /* Build configuration list for PBXProject "ReactiveCocoa_old" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3967CC691BB3FADF005230E4 /* Debug */,
+				3967CC6A1BB3FADF005230E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3967CC6B1BB3FADF005230E4 /* Build configuration list for PBXNativeTarget "ReactiveCocoa_old" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3967CC6C1BB3FADF005230E4 /* Debug */,
+				3967CC6D1BB3FADF005230E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3967CC6E1BB3FADF005230E4 /* Build configuration list for PBXNativeTarget "ReactiveCocoa_oldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3967CC6F1BB3FADF005230E4 /* Debug */,
+				3967CC701BB3FADF005230E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3967CC401BB3FADF005230E4 /* Project object */;
+}

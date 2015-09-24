@@ -1,0 +1,22 @@
+PODS:
+  - Masonry (0.5.3)
+  - MMPlaceHolder (1.4)
+
+DEPENDENCIES:
+  - Masonry (= 0.5.3)
+  - MMPlaceHolder (from `https://github.com/mangues/Tool_IOS_OC.git`)
+
+EXTERNAL SOURCES:
+  MMPlaceHolder:
+    :git: https://github.com/mangues/Tool_IOS_OC.git
+
+CHECKOUT OPTIONS:
+  MMPlaceHolder:
+    :commit: aa0aeb7050cf2b8af7d1f53c5cb174bf6574045e
+    :git: https://github.com/mangues/Tool_IOS_OC.git
+
+SPEC CHECKSUMS:
+  Masonry: 9f515466afe48632562342a40a1c224071a1a022
+  MMPlaceHolder: 04d9575535604db7a2b8fa73aa9bb366c279d019
+
+COCOAPODS: 0.38.2
